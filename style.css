@@ -1,4 +1,4 @@
-.Celular{
+.Celular {
 
     width: 402px;
     height: 874px;
@@ -10,37 +10,40 @@
     justify-content: center;
     flex-direction: column;
 }
-h1{
+
+h1 {
     font-family: "Irish Grover", system-ui;
     font-weight: 400;
     font-style: normal;
-  }
-  
-.titulo{
-     width: 390px;
-     height: 300px;
-     margin: 15px auto;
-     display: flex;
-     justify-content: center;
-     flex-wrap: wrap;
-     font-size: large;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo {
+    width: 390px;
+    height: 300px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-.lapis{
+
+.lapis {
     display: flex;
     width: 70px;
     height: 90px;
     padding: 20px;
 }
-.lapis img{
+
+.lapis img {
     width: 60px;
     height: 80px;
 
 }
 
 
-.Dados{
+.Dados {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -51,20 +54,22 @@ h1{
     color: rgb(244, 244, 244);
 
 }
-.Caixa input{
+
+.Caixa input {
     color: azure;
     display: flex;
     justify-content: center;
     border-radius: 16px;
-    background-color: rgb(112, 112, 112);
+    background-color: rgb(166, 166, 166);
     width: 340px;
     height: 60px;
     border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
 }
 
-.Dados button{
-    
+.Dados button {
+
     border: 5px;
     border-radius: 20px;
     width: 200px;
@@ -73,13 +78,15 @@ h1{
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: aliceblue;
-    
-}
-button:hover{
-    background-color: rgb(173, 168, 178)    ;
+
+
 }
 
-.cadastro{
+button:hover {
+    background-color: rgb(173, 168, 178);
+}
+
+.cadastro {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -90,8 +97,8 @@ button:hover{
     color: rgb(244, 244, 244);
 }
 
-.cadastro button{
-    border: 5px solid rgb(85,85,85);
+.cadastro button {
+    border: 5px solid rgb(85, 85, 85);
     border-radius: 20px;
     width: 300px;
     height: 50px;
@@ -102,10 +109,12 @@ button:hover{
     flex-wrap: wrap;
 
 }
-button:hover{
-    background-color: rgb(173, 168, 178)    ;
+
+button:hover {
+    background-color: rgb(173, 168, 178);
 }
-.locais{
+
+.locais {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -116,4 +125,14 @@ button:hover{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
     color: rgb(244, 244, 244);
+}
+
+.Dados a {
+    margin: 8px;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+    align-items: right;
+
 }
