@@ -2,9 +2,9 @@
 
     width: 402px;
     height: 874px;
-    background-color: rgb(173, 167, 158);
+    background-color: rgb(136, 119, 119);
     margin: 10px auto;
-    border: 10px solid black;
+    border: 5px solid black;
     border-radius: 20px;
 }
 .titulo{
@@ -14,14 +14,20 @@
      display: flex;
      justify-content: center;
      flex-wrap: wrap;
-     font: bold;
+     font-size: large;
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-
+}
+.lapis{
+    display: flex;
+    width: 70px;
+    height: 90px;
+    padding: 20px;
 }
 .lapis img{
-    width: 100px;
-    height: 120px;
+    width: 60px;
+    height: 80px;
+
 }
 
 
@@ -36,7 +42,10 @@
     color: rgb(244, 244, 244);
 
 }
-.Caixa{
+.Caixa input{
+    color: azure;
+    display: flex;
+    justify-content: center;
     border: 7px;
     border-radius: 16px;
     background-color: rgb(112, 112, 112);
@@ -48,9 +57,12 @@
 .Dados button{
     border: 5px;
     border-radius: 20px;
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 70px;
     background-color: rgb(85, 85, 85);
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
     
 }
 button:hover{
@@ -74,5 +86,11 @@ button:hover{
     width: 200px;
     height: 50px;
     background-color: rgb(85, 85, 85);
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
 
+}
+button:hover{
+    background-color: rgb(173, 168, 178)    ;
 }
