@@ -1,0 +1,58 @@
+.Celular4{
+    width: 402px;
+    height: 874px;
+    background-color: rgb(143, 123, 123);
+    margin: 10px auto;
+    border: 5px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulo4 {
+    width: 390px;
+    height: 200px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.Produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    width: 150px;
+    height: 200px;
+
+    background-color: gray;
+}
+
+.Produtos img{
+    width: 100px;
+    height: 130px;
+}
+
+.Dados4{
+    margin: 40px;
+
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
